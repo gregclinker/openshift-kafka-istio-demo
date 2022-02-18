@@ -24,7 +24,7 @@ spec:
             sidecar.istio.io/inject: "true"
     resources:
       limits:
-        cpu: 250m
+        cpu: 500m
         memory: 1Gi
         ephemeral-storage: 500Mi
     storage:
@@ -51,7 +51,7 @@ spec:
             sidecar.istio.io/inject: "true"
     resources:
       limits:
-        cpu: 250m
+        cpu: 500m
         memory: 1Gi
         ephemeral-storage: 500Mi
     storage:
