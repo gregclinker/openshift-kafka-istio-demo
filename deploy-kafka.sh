@@ -1,5 +1,7 @@
 source ./env.sh
 #
+rm truststore.jks
+#
 oc project kafka
 #
 oc create -f kafka.yaml
